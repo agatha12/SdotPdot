@@ -39,7 +39,22 @@ body {
     flex: 1;
 }
 
+/* about */
+#about {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 20px;
+}
 
+#about img{
+    max-width: 100%;
+    margin: 30px;
+}
+
+#about a {
+    color: white;
+}
 
 /* footer */
 
@@ -56,13 +71,7 @@ body {
 /* media queries */
 
 @media only screen and (max-width: 650px) {
-   /* .carousel-item {
-       height: 60vh;
-   } */
-/* 
-   #carousel {
-       height: 40vh
-   } */
+
    #navlogo {
     width: 25%;
     margin-left: 37.5%;
@@ -72,6 +81,8 @@ body {
 }
 #dropdownMenuButton {
     visibility: visible;
-    top: -50px;
+}
+#about {
+    width: 100%;
 }
   }
