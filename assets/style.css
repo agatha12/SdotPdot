@@ -22,11 +22,12 @@ body {
 
 /* home */
 #carousel {
-    height: 80vh;
+    display: flex;
+    max-height: 80vh;
 }
 
 .carousel-item {
-    height: 80vh;
+    flex: 1;
 }
 
 
@@ -42,3 +43,19 @@ body {
     font-size: 30px;
     
 }
+
+/* media queries */
+
+@media only screen and (max-width: 650px) {
+   /* .carousel-item {
+       height: 60vh;
+   } */
+/* 
+   #carousel {
+       height: 40vh
+   } */
+   #navlogo {
+    width: 25%;
+    margin-left: 37.5%;
+}
+  }
