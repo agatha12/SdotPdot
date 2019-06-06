@@ -13,12 +13,21 @@ body {
 
 .navlink a {
     color: white;
+    font-size: 24px;
 }
 
 #navlogo {
     width: 16%;
     margin-left: 42%;
 }
+
+#dropdownMenuButton {
+    background-color: black;
+    color: white;
+    border-color: transparent;
+    visibility: hidden;
+}
+
 
 /* home */
 #carousel {
@@ -57,5 +66,12 @@ body {
    #navlogo {
     width: 25%;
     margin-left: 37.5%;
+}
+#navdiv {
+   visibility: hidden;;   
+}
+#dropdownMenuButton {
+    visibility: visible;
+    top: -50px;
 }
   }
