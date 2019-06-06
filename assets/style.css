@@ -21,9 +21,14 @@ body {
 }
 
 /* home */
+#carousel {
+    height: 80vh;
+}
+
 .carousel-item {
     height: 80vh;
 }
+
 
 
 /* footer */
