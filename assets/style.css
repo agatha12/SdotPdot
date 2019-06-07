@@ -18,7 +18,7 @@ body {
 
 #navlogo {
     width: 10%;
-    margin: 45%;
+    margin-left: 45%;
 }
 
 #dropdownMenuButton {
@@ -32,7 +32,7 @@ body {
 /* home */
 #carousel {
     display: flex;
-    max-height: 80vh;
+
 }
 
 .carousel-item {
@@ -88,12 +88,7 @@ body {
      width: 10%;
      margin-left: 45%;
  }
- #navdiv {
-    visibility: hidden;;   
- }
- #dropdownMenuButton {
-     visibility: visible;
- }
+
  #about {
      width: 100%;
      padding: 10px;
@@ -107,6 +102,12 @@ body {
     width: 25%;
     margin-left: 37.5%;
 }
+#navdiv {
+    visibility: hidden;;   
+ }
+ #dropdownMenuButton {
+     visibility: visible;
+ }
 
 #abouttext{
     flex: 100%;
