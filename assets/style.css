@@ -9,6 +9,7 @@ body {
 
 .navlink {
     width: 14%;
+    color: white
 }
 
 .navlink a {
@@ -25,7 +26,7 @@ body {
     background-color: black;
     color: white;
     border-color: transparent;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 
@@ -107,12 +108,12 @@ iframe {
     width: 25%;
     margin-left: 37.5%;
 }
-#navdiv {
+/* #navdiv {
     visibility: hidden;;   
  }
  #dropdownMenuButton {
      visibility: visible;
- }
+ } */
 
 #abouttext{
     flex: 100%;
