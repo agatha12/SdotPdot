@@ -101,6 +101,11 @@ iframe {
 #video {
     width: 1280px;
     margin: 0 auto;
+    text-align: center;
+}
+.vidlink {
+    color: white;
+    margin: 30px;
 }
 
 /* footer */
