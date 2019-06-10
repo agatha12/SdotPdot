@@ -1,5 +1,9 @@
 body {
     background-color: black;
+    /* background-image: url(../assets/Images/unnamed.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;  */
     color: white;
 }
 /* nav */
@@ -72,6 +76,26 @@ iframe {
     vertical-align: center; 
     
 }
+
+/* portfolio */
+
+.portfoliolink {
+    width: 15%;
+    margin: 17%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#portfolio {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+#portfoliotitle {
+    text-align: center;
+    margin: 10px;
+}
+
 
 /* footer */
 
