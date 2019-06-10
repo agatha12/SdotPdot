@@ -60,6 +60,7 @@ mobileNav()
     a6.text("Video")
     a7.attr("class", "dropdown-item")
     a7.attr("href", "https://www.instagram.com/sdotpdotmedia/")
+    a7.attr("target", "blank")
     a7.text("Instagram")
 
 
@@ -111,6 +112,7 @@ mobileNav()
     a6.text("Video")
     a7.attr("class", "navlink")
     a7.attr("href", "https://www.instagram.com/sdotpdotmedia/")
+    a7.attr("target", "blank")
     a7.text("Instagram")
 
 
