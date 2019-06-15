@@ -33,7 +33,7 @@ body {
 }
 
 #dropdownMenuButton {
-    background-color: black;
+    background-color: transparent;
     color: white;
     border-color: transparent;
 }
@@ -83,6 +83,7 @@ iframe {
     
 }
 
+
 /* portfolio */
 
 .portfoliolink {
@@ -105,7 +106,7 @@ iframe {
 /* video */
 
 #video {
-    width: 1280px;
+    /* width: 1280px; */
     margin: 0 auto;
     text-align: center;
 }
@@ -139,6 +140,10 @@ iframe {
      width: 100%;
      padding: 10px;
  }
+ .portfoliolink {
+    width: 30%;
+    margin: 0;
+}
  
    }
 
@@ -157,8 +162,5 @@ iframe {
     flex: 100%;
     max-width: 100%;
 }
-.portfoliolink {
-    width: 30%;
-    margin: 0;
-}
+
   }
