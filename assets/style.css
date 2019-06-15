@@ -1,3 +1,8 @@
+@font-face {
+    font-family: DreamOrphans;
+    src: url('./dream\ orphans.ttf');
+}
+
 body {
     background-color: black;
     /* background-image: url(../assets/Images/unnamed.jpg);
@@ -5,6 +10,7 @@ body {
   background-attachment: fixed;
   background-position: center;  */
     color: white;
+    font-family: DreamOrphans;
 }
 /* nav */
 #navdiv {
