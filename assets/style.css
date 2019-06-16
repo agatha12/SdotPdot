@@ -82,7 +82,9 @@ iframe {
     vertical-align: center; 
     
 }
-
+#beyond {
+    text-align: center;
+}
 
 /* portfolio */
 
@@ -92,16 +94,30 @@ iframe {
     margin-top: 0;
     margin-bottom: 0;
 }
-/* #portfolio {
-    width: 60%;
-    margin: 0 auto;
-    
-} */
+
 
 #portfoliotitle {
     text-align: center;
     margin: 10px;
 }
+.galleryrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
+  .gallerycolumn {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .gallerycolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
 
 /* video */
 
@@ -144,6 +160,10 @@ iframe {
     width: 30%;
     margin: 0;
 }
+.gallerycolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
  
    }
 
@@ -162,5 +182,9 @@ iframe {
     flex: 100%;
     max-width: 100%;
 }
+.gallerycolumn {
+    flex: 100%;
+    max-width: 100%;
+  }
 
   }
