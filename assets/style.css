@@ -2,15 +2,21 @@
     font-family: DreamOrphans;
     src: url('./dream\ orphans.ttf');
 }
+@font-face {
+    font-family: Desyrel;
+    src: url('./DESYREL_.ttf');
+}
+
 
 body {
     background-color: black;
-    /* background-image: url(../assets/Images/unnamed.jpg);
-    background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;  */
+    /* background-image: url(../assets/Images/thumbnail-4new.jpg);
+    background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-position: center;  */
     color: white;
-    font-family: DreamOrphans;
+    /* font-family: DreamOrphans; */
+    font-family: Desyrel;
 }
 /* nav */
 #navdiv {
@@ -88,17 +94,23 @@ iframe {
 
 /* portfolio */
 
+
+#portfolio{
+    width: 60%;
+    margin: 0 auto;
+
+}
 .portfoliolink {
-    width: 10%;
-    margin: 11%;
-    margin-top: 0;
-    margin-bottom: 0;
+    width: 20%;
+    margin: 6%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
 #portfoliotitle {
     text-align: center;
-    margin: 10px;
+    margin: 40px;
 }
 .galleryrow {
     display: flex;
@@ -122,13 +134,16 @@ iframe {
 /* video */
 
 #video {
-    /* width: 1280px; */
-    margin: 0 auto;
+  
+    padding: 20px;
     text-align: center;
 }
 .vidlink {
     color: white;
     margin: 30px;
+}
+.video {
+    margin: 20px;
 }
 
 /* footer */
@@ -181,10 +196,10 @@ iframe {
 #aboutimg{
     flex: 100%;
     max-width: 100%;
-}
+/* }
 .gallerycolumn {
     flex: 100%;
     max-width: 100%;
-  }
+  } */
 
   }
