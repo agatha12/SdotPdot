@@ -17,6 +17,9 @@ body {
     color: white;
     /* font-family: DreamOrphans; */
     font-family: Desyrel;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 /* nav */
 #navdiv {
@@ -31,6 +34,11 @@ body {
 .navlink a {
     color: white;
     font-size: 18px;
+}
+
+.navlink a:hover {
+    color: #ba5c4e;
+
 }
 
 #navlogo {
@@ -52,6 +60,19 @@ body {
 }
 
 .carousel-item {
+    flex: 1;
+}
+
+.homecarousel{
+    max-height: 60vh;
+    margin: 0 auto;
+    vertical-align: center;
+    width: 100%;
+
+}
+
+
+#content{
     flex: 1;
 }
 
@@ -110,6 +131,7 @@ iframe {
 #portfolio{
     width: 60%;
     margin: 0 auto;
+    flex: 1;
 
 }
 .portfoliolink {
@@ -141,6 +163,11 @@ iframe {
     margin-top: 8px;
     vertical-align: middle;
   }
+
+  .transbutton {
+      background-color: transparent;
+      border-color: transparent;
+  }
   
 
 /* video */
@@ -162,6 +189,7 @@ iframe {
 
 #footer {
     text-align: center;
+    bottom: 0;
 }
 
 #footer a{

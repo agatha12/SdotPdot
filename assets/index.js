@@ -127,3 +127,12 @@ mobileNav()
     div.append(a7)
     $("#nav").append(div)
  }
+
+
+ $(".transbutton").on("click", function displayPic(){
+
+   console.log(this.id)
+
+   $("#gallerymodal").append()
+
+ })
