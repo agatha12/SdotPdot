@@ -82,11 +82,12 @@ body {
 /* about */
 #about {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    width: 70%;
+    /* flex-wrap: wrap; */
+    /* padding: 0 4px; */
+    width: 80%;
     margin: 0 auto;
     height: 70vh;
+    padding-top: 20px;
 }
 #abouttext{
     flex: 2;
@@ -94,16 +95,17 @@ body {
     padding: 30px;
     font-size: 20px;
 }
-#aboutimg{
-    flex: 1;
-    max-width: 50%;
-    padding: 30px;
-    max-height: 100%;
-}
 
-#about img{
+
+/* #about img{
     margin-top: 8px;
     vertical-align: middle;
+} */
+#aboutimg img{
+    flex: 1;
+    max-width: 90%;
+    /* padding: 30px; */
+    max-height: 70vh;
 }
 
 #about a {
@@ -217,7 +219,7 @@ iframe {
 
 #footer {
     text-align: center;
-    bottom: 0;
+    /* bottom: 0; */
 }
 
 #footer a{
@@ -250,13 +252,29 @@ iframe {
  
    }
 
-/* @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
 
-    #button2009 img{
-        width: 100%;
+    
+    
+    #abouttext {
+
+        max-width: 100%;
+
     }
 
-} */
+    #aboutimg {
+
+        max-width: 100%;
+    }
+    
+
+    #about{
+       display: block;
+       height: 100%;
+    } 
+    
+
+}
 
 @media only screen and (max-width: 650px) {
 
@@ -265,13 +283,13 @@ iframe {
     margin-left: 37.5%;
 }
 
-#abouttext{
+/* #abouttext{
     flex: 100%;
     max-width: 100%;
 }
 #aboutimg{
     flex: 100%;
-    max-width: 100%;
+    max-width: 100%; */
 /* }
 .gallerycolumn {
     flex: 100%;
