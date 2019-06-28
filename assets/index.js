@@ -52,9 +52,9 @@ mobileNav()
     a4.attr("class", "dropdown-item")
     a4.attr("href", "https://agatha12.github.io/SdotPdot/Articles")
     a4.text("artful articles")
-    //a5.attr("class", "dropdown-item")
-   //  a5.attr("href", "https://agatha12.github.io/SdotPdot/Design")
-   //  a5.text("Design")
+    a5.attr("class", "dropdown-item")
+    a5.attr("href", "https://agatha12.github.io/SdotPdot/")
+    a5.text("home")
      a6.attr("class", "dropdown-item")
     a6.attr("href", "https://agatha12.github.io/SdotPdot/Video")
     a6.text("design/video")
@@ -65,12 +65,12 @@ mobileNav()
 
 
 
-
+    div2.append(a5)
     div2.append(a1)
     div2.append(a2)
     div2.append(a3)
     div2.append(a4)
-    div2.append(a5)
+
     div2.append(a6)
     div2.append(a7)
     div.append(button)
@@ -89,6 +89,7 @@ mobileNav()
     var a5 =$("<a>")
     var a6 =$("<a>")
     var a7 =$("<a>")
+    
 
     div.attr("id", "navdiv")
     div.attr("class", "row")
@@ -104,9 +105,9 @@ mobileNav()
     a4.attr("class", "navlink")
     a4.attr("href", "https://agatha12.github.io/SdotPdot/Articles")
     a4.text("artful articles")
-   //  a5.attr("class", "navlink")
-   //  a5.attr("href", "https://agatha12.github.io/SdotPdot/Design")
-   //  a5.text("design")
+    a5.attr("class", "navlink")
+    a5.attr("href", "https://agatha12.github.io/SdotPdot/")
+    a5.text("home")
     a6.attr("class", "navlink")
     a6.attr("href", "https://agatha12.github.io/SdotPdot/Video")
     a6.text("design/video")
@@ -117,12 +118,12 @@ mobileNav()
 
 
 
-
+    div.append(a5)
     div.append(a1)
     div.append(a2)
     div.append(a3)
     div.append(a4)
-   //  div.append(a5)
+
     div.append(a6)
     div.append(a7)
     $("#nav").append(div)
@@ -130,9 +131,14 @@ mobileNav()
 
 
  $(".transbutton").on("click", function displayPic(){
-
+   $(".gallerymodal").empty()
    console.log(this.id)
+   var path = "./assets/Images/" + this.id
+   var photo = $("<img>")
+   photo.attr("src", path)
+   photo.attr("id", "modalImage")
 
-   $("#gallerymodal").append()
+   $(".gallerymodal").append(photo)
+   $(".gallerymodal").append("hello world")
 
  })

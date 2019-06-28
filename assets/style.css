@@ -10,16 +10,19 @@
 
 body {
     background-color: black;
-    /* background-image: url(../assets/Images/thumbnail-4new.jpg);
-    background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
-  /* background-position: center;  */
     color: white;
     /* font-family: DreamOrphans; */
     font-family: Desyrel;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+}
+
+.backgroundImg{
+    background-image: url(../assets/Images/Myc_Cloud_IX_wm-20\ copy.jpg);
+    background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center; 
 }
 /* nav */
 #navdiv {
@@ -67,7 +70,7 @@ body {
     max-height: 60vh;
     margin: 0 auto;
     vertical-align: center;
-    width: 100%;
+    /* width: 100%; */
 
 }
 
@@ -83,17 +86,19 @@ body {
     padding: 0 4px;
     width: 70%;
     margin: 0 auto;
+    height: 70vh;
 }
 #abouttext{
-    flex: 50%;
+    flex: 2;
     max-width: 50%;
     padding: 30px;
     font-size: 20px;
 }
 #aboutimg{
-    flex: 50%;
+    flex: 1;
     max-width: 50%;
     padding: 30px;
+    max-height: 100%;
 }
 
 #about img{
@@ -168,6 +173,29 @@ iframe {
       background-color: transparent;
       border-color: transparent;
   }
+
+  /* .gallerymodal{
+      display: flex;
+  } */
+/* 
+  #modalImage{
+      flex: 1;
+  } */
+
+  body .modal-dialog { 
+    max-width: 100%;
+    width: 100% !important;
+    display: inline-block;
+}
+
+.modal {
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: center;
+    /* min-width: auto;
+    max-width: fit-content;
+    padding: 1%; */
+}
   
 
 /* video */
