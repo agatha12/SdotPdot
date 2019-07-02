@@ -142,3 +142,6 @@ mobileNav()
    $(".gallerymodal").append("hello world")
 
  })
+
+			
+       

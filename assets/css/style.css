@@ -1,10 +1,10 @@
 @font-face {
     font-family: DreamOrphans;
-    src: url('./dream\ orphans.ttf');
+    src: url('../fonts/dream\ orphans.ttf orphans.ttf');
 }
 @font-face {
     font-family: Desyrel;
-    src: url('./DESYREL_.ttf');
+    src: url('../fonts/DESYREL_.ttf');
 }
 
 
@@ -146,6 +146,7 @@ iframe {
     margin: 6%;
     margin-top: 20px;
     margin-bottom: 20px;
+
 }
 
 
