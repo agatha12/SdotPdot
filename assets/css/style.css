@@ -76,17 +76,19 @@ body {
 } */
 
 
-/* #content{
-     flex: 1; 
+#content{
+     /* flex: 1;  */
+     width: 95%;
+     margin: 0 auto;
 
-} */
+}
 .carouselhome{
     height: 60vh;
 }
 
-.variable-width{
+/* .variable-width{
     width: 98%;
-}
+} */
 
 /* about */
 #about {
