@@ -124,12 +124,18 @@ iframe {
     width: 640px;
     margin: 0 auto;
     display: block;
+    float: right;
 }
 
 .carousel2009{
     width: 500px;
  
 
+}
+
+.text2009{
+    text-align: center;
+    width: 80%;
 }
 
 /* portfolio */
