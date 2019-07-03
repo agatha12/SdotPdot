@@ -24,31 +24,7 @@ body {
   /* background-attachment: fixed; */
   background-position: center; 
 }
-.backgroundImg2{
-    background-image: url(../Images/Myc_Cloud_IX_wm-3\ copy.jpg);
-    background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: center; 
-}
-.backgroundImg3{
-    background-image: url(../Images/Myc_Cloud_IX_wm-22\ copy.jpg);
-    background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: center; 
-}
-.backgroundImg4{
-    background-image: url(../Images/Myc_Cloud_IX_wm-4\ copy.jpg);
-    background-repeat: no-repeat;
 
-   background-position: center; 
-}
-.backgroundImg5{
-    background-image: url(../Images/Myc_Cloud_IX_wm-25\ copy.jpg);
-    background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-  
-}
 /* nav */
 #navdiv {
     text-align: center;   
@@ -106,6 +82,10 @@ body {
 } */
 .carouselhome{
     height: 60vh;
+}
+
+.variable-width{
+    width: 98%;
 }
 
 /* about */
