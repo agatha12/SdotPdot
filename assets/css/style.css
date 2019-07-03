@@ -313,7 +313,12 @@ iframe {
     flex: 100%;
     max-width: 100%;
   } */
+  #content{
 
+    width: 90%;
+
+
+}
   
 
 }
