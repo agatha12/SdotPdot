@@ -82,26 +82,30 @@ body {
 
 
 /* home */
-#carousel {
+/* #carousel {
     display: flex;
 
-}
+} */
 
-.carousel-item {
+/* .carousel-item {
     flex: 1;
-}
-
+} */
+/* 
 .homecarousel{
     max-height: 60vh;
     margin: 0 auto;
     vertical-align: center;
-    /* width: 100%; */
+     width: 100%; 
 
-}
+} */
 
 
-#content{
-    flex: 1;
+/* #content{
+     flex: 1; 
+
+} */
+.carouselhome{
+    height: 60vh;
 }
 
 /* about */
