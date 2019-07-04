@@ -125,17 +125,20 @@ body {
 /* 2009 and Beyond */
 iframe {
     vertical-align: center; 
-    margin: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    padding-top: 0;
     
 }
 #beyond {
     text-align: center;
+    width: 95%;
+    margin: 0 auto;
 }
 #button2009 img{
-    width: 640px;
-    margin: 0 auto;
-    display: block;
-    float: right;
+    margin-top: 30px;
+    padding-top: 0;
+
 }
 
 .carousel2009{
@@ -146,7 +149,18 @@ iframe {
 
 .text2009{
     text-align: center;
-    width: 80%;
+    width: 100%;
+    
+}
+.event{
+    width: 50%;
+    float: left;
+    /* text-align: center; */
+}
+
+.event img{
+    width: 100%;
+    padding: 10%;
 }
 
 /* portfolio */
@@ -319,6 +333,23 @@ iframe {
 
 
 }
-  
+#beyond {
+
+    width: 90%;
 
 }
+.event{
+    width: 100%;
+    float: left;
+    /* text-align: center; */
+}
+.event img {
+    padding: 5px;
+}
+
+
+
+}
+
+  
+
