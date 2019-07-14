@@ -166,7 +166,10 @@ iframe {
     float: left;
     /* text-align: center; */
 }
+.vid2009{
+    width: 100%;
 
+}
 .event img{
     width: 50%;
     margin: 0 auto;
