@@ -114,6 +114,10 @@ body {
     text-align: center;
 }
 
+#aboutlink:hover{
+    color: #ba5c4e;
+}
+
 
 /* #about img{
     margin-top: 8px;
@@ -152,6 +156,7 @@ iframe {
 
 .carousel2009{
     width: 190px;
+    height: 126px;
  
 
 }
@@ -327,6 +332,7 @@ iframe {
     #about{
        display: block;
        height: 100%;
+
     } 
     
 
