@@ -6,13 +6,17 @@
     font-family: Desyrel;
     src: url('../fonts/DESYREL_.ttf');
 }
+@font-face {
+    font-family: Bebas;
+    src: url('../fonts/BebasNeue-Regular.ttf')
+}
 
 
 body {
     background-color: black;
     color: white;
     /* font-family: DreamOrphans; */
-    font-family: Desyrel;
+    font-family: Bebas;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
