@@ -29,6 +29,10 @@ body {
   background-position: center; 
 }
 
+.Desyrel{
+    font-family: Desyrel;
+}
+
 /* nav */
 #navdiv {
     text-align: center;   
@@ -239,7 +243,7 @@ iframe {
       border-color: transparent;
   }
   #modalImage{
-      max-width: 100%;
+      max-width: 75%;
   }
 
   /* .gallerymodal{
@@ -271,6 +275,10 @@ iframe {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+
+#articles h2{
+    margin-bottom: 0;
 }
 
 .article{
