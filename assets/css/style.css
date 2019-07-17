@@ -198,11 +198,16 @@ iframe {
 
 /* Printshop */
 
-#printshop p{
+#event2009 p{
     width: 50%;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#event2009 iframe{
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 /* portfolio */
