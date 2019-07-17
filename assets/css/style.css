@@ -150,11 +150,12 @@ body {
 
 }
 
-iframe {
+#body2009 iframe {
     vertical-align: center; 
     padding: 30px;
     margin-top: 30px;
     padding-top: 30px;
+    padding-bottom: 0;
     
 }
 #beyond {
@@ -163,11 +164,9 @@ iframe {
     margin: 0 auto;
 }
 #button2009 img{
-    margin-top: 30px;
-    padding: 10%;
-    padding-top: 0;
-    width: 100%;
 
+    width: 80%;
+    margin: 0 auto;
 }
 
 .carousel2009{
