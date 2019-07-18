@@ -11,12 +11,17 @@
     src: url('../fonts/BebasNeue-Regular.ttf')
 }
 
+@font-face{
+    font-family: Corbel;
+    src: url('../fonts/CORBEL.TTF')
+}
+
 
 body {
     background-color: black;
     color: white;
     /* font-family: DreamOrphans; */
-    font-family: Bebas;
+    font-family: Corbel;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
