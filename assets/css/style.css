@@ -131,6 +131,18 @@ body {
 #aboutlink:hover{
     color: #ba5c4e;
 }
+#aboutlink {
+    color: white;
+}
+
+#basedlink{
+    color: #ba5c4e;
+    font-weight: bold;
+}
+
+#basedlink:hover{
+    color:white;
+}
 
 
 /* #about img{
@@ -144,9 +156,7 @@ body {
     max-height: 70vh;
 }
 
-#about a {
-    color: white;
-}
+
 /* 2009 and Beyond */
 #body2009{
     background-image: url(../Images/2009photos/2009_background-01.jpg);
