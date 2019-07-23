@@ -42,6 +42,7 @@ body {
 #navdiv {
     text-align: center;   
     font-family: Desyrel;
+    margin-bottom: 20px;
 }
 
 .navlink {
@@ -376,7 +377,7 @@ body {
 #footer {
     text-align: center;
     font-family: Desyrel;
-    /* bottom: 0; */
+    margin-top: 20px;
 }
 
 #footer a{
