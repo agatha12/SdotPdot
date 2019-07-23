@@ -45,9 +45,35 @@ body {
 }
 
 .navlink {
-    width: 14%;
+
     color: white
 }
+
+#navhome{
+    width: 13%;
+}
+
+#navabout{
+    width: 13%;
+}
+
+#navbook{
+    width: 17%;
+}
+#navarticle{
+    width: 14%;
+}
+
+#navportfolio{
+    width: 17%;
+}
+#navvideo{
+    width: 13%;
+}
+#navinstagram{
+    width: 13%;
+}
+
 
 .navlink a {
     color: white;
