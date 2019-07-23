@@ -247,11 +247,12 @@ body {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    /* font-size: 15px; */
 }
 
 #event2009 iframe{
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 /* portfolio */
