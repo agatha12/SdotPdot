@@ -239,6 +239,9 @@ body {
     width: 50%;
     margin: 0 auto;
 }
+.event img:hover{
+    opacity: .5;
+}
 
 /* Printshop */
 
