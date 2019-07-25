@@ -316,6 +316,10 @@ body {
     vertical-align: middle;
   }
 
+  .gallerycolumn img:hover {
+    opacity: .5;
+  }
+
   .transbutton {
       background-color: transparent;
       border-color: transparent;
