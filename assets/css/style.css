@@ -220,6 +220,9 @@ body {
  
 
 }
+.carousel2009:hover{
+    opacity: .5;
+}
 
 .text2009{
     text-align: center;
@@ -244,6 +247,11 @@ body {
 }
 
 /* Printshop */
+
+#event2009{
+    width: 95%;
+    margin: 0 auto;
+}
 
 #event2009 p{
     width: 50%;
@@ -272,6 +280,10 @@ body {
     margin-left: 10%;
 
 
+}
+
+.portfoliolink:hover{
+    opacity: .5;
 }
 .port1{
     margin-bottom: 20px;
@@ -358,6 +370,10 @@ body {
     width: 250px;
     height: 167px;
 
+}
+
+.article img:hover{
+    opacity: .5;
 }
   
 
