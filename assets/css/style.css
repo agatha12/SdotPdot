@@ -191,7 +191,7 @@ body {
 /* 2009 and Beyond */
 #body2009{
     background-image: url(../Images/2009photos/2009_background-01.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     background-color: #ba5c4e;
 
