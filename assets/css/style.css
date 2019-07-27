@@ -380,7 +380,24 @@ body {
   .articleGallerycolumn img:hover {
     opacity: .5;
   }
-  
+  .sxswImages{
+    width: 100%;
+    padding: 2%;
+    padding-top: 0;
+  }
+  .sxswImages:hover{
+      opacity: .5;
+  }
+  .sxswTitle{
+      color:white;
+      font-family: Corbel;
+  }
+  .sxswdiv{
+      width: 20%;
+      float: left;
+      margin-bottom: 20px;
+      
+  }
 
 /* video */
 
