@@ -406,7 +406,7 @@ body {
     width: 25%;
     float: left;
     margin-bottom: 20px;
-    
+    color: white;
 }
 .sxswImages19{
     width: 100%;
@@ -417,6 +417,20 @@ body {
       opacity: .5;
   }
 
+  #sxswImages16 div{
+    width: 11.11%;
+    text-align: center;
+    float: left;
+  }
+  #sxswImages16 img{
+      width: 100%;
+      padding: 2%;
+      margin-bottom: 5px;
+  }
+
+  #sxswImages16 img:hover{
+    opacity: .5;
+}
 /* video */
 
 #video {
