@@ -398,6 +398,24 @@ body {
       margin-bottom: 20px;
       
   }
+  .sxswImgDiv{
+      width: 80%;
+      margin: 0 auto;
+  }
+  .sxswdiv19{
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+.sxswImages19{
+    width: 100%;
+    padding: 2%;
+    padding-top: 0;
+  }
+  .sxswImages19:hover{
+      opacity: .5;
+  }
 
 /* video */
 
