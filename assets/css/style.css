@@ -571,6 +571,12 @@ body {
     width: 100%;
 }
 
+#sxswImages16 div{
+    width: 33.33%;
+    text-align: center;
+    float: left;
+  }
+
 
 
 }
