@@ -487,6 +487,11 @@ body {
     flex: 50%;
     max-width: 50%;
   }
+  
+.articleGallerycolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
   #articles{
       width: 100%;
   }
