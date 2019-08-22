@@ -388,6 +388,21 @@ body {
   .articleGallerycolumn img:hover {
     opacity: .5;
   }
+  .karticleGallerycolumn {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 2px;
+  }
+  
+  .karticleGallerycolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .karticleGallerycolumn img:hover {
+    opacity: .5;
+  }
+
   .sxswImages{
     width: 100%;
     padding: 2%;
