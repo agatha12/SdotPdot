@@ -419,6 +419,12 @@ body {
   .sxswImages19:hover{
       opacity: .5;
   }
+  .sxswBigImage{
+      width: 100%;
+      padding: 20%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
 
   #sxswImages16 div{
     width: 11.11%;
