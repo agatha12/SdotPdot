@@ -51,11 +51,11 @@ body {
 }
 
 #navhome{
-    width: 13%;
+    width: 11%;
 }
 
 #navabout{
-    width: 13%;
+    width: 9%;
 }
 
 #navbook{
@@ -66,13 +66,16 @@ body {
 }
 
 #navportfolio{
-    width: 17%;
+    width: 15%;
 }
 #navvideo{
-    width: 13%;
+    width: 11%;
 }
 #navinstagram{
-    width: 13%;
+    width: 10%;
+}
+#navshop{
+    width: 12%;
 }
 
 

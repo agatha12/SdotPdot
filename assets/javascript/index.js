@@ -29,6 +29,7 @@ mobileNav()
     var a5 =$("<a>")
     var a6 =$("<a>")
     var a7 =$("<a>")
+    var a8 =$("<a>")
 
     div.attr("class", "dropdown")
     button.attr("class", "dropdown-toggle")
@@ -62,6 +63,10 @@ mobileNav()
     a7.attr("href", "https://www.instagram.com/sdotpdotmedia/")
     a7.attr("target", "blank")
     a7.text("instagram")
+    a8.attr("class", "dropdown-item")
+    a8.attr("href", "https://www.sdotpdotshop.bigcartel.com")
+    a8.attr("target", "blank")
+    a8.text("sdotpdotshop")
 
 
 
@@ -73,6 +78,7 @@ mobileNav()
 
     div2.append(a6)
     div2.append(a7)
+    div2.append(a8)
     div.append(button)
     div.append(div2)
     $("#nav").append(div)
@@ -89,6 +95,7 @@ mobileNav()
     var a5 =$("<a>")
     var a6 =$("<a>")
     var a7 =$("<a>")
+    var a8 =$("<a>")
     
 
     div.attr("id", "navdiv")
@@ -122,6 +129,11 @@ mobileNav()
     a7.attr("href", "https://www.instagram.com/sdotpdotmedia/")
     a7.attr("target", "blank")
     a7.text("instagram")
+    a8.attr("class", "navlink")
+    a8.attr("id", "navshop")
+    a8.attr("href", "https://www.sdotpdotshop.bigcartel.com")
+    a8.attr("target", "blank")
+    a8.text("sdotpdotshop")
 
 
 
@@ -133,6 +145,7 @@ mobileNav()
 
     div.append(a6)
     div.append(a7)
+    div.append(a8)
     $("#nav").append(div)
  }
 
