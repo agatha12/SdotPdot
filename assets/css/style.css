@@ -110,7 +110,7 @@ body {
 
 }
 .carouselhome{
-    height: 60vh;
+    height: 55vh;
 }
 
 
@@ -494,6 +494,10 @@ body {
     font-family: Desyrel;
     margin-top: 20px;
 }
+.footerName{
+    font-family: Corbel;
+
+}
 
 #footer a{
     color: white;
@@ -581,9 +585,10 @@ body {
 }
 
 
+
   #content{
 
-    width: 90%;
+    width: 85%;
 
 
 }
