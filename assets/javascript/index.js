@@ -7,6 +7,7 @@ mobileNav()
     regularNav()
  }
 
+
  $(window).resize(function() {
     if ($(window).width() < 960) {
        mobileNav()
@@ -15,6 +16,12 @@ mobileNav()
       regularNav()
    }
   });
+
+  if ($(window).width() < 650){
+    $("#willyTitle").empty();
+    $("#willyTitle").append("Willy")
+    
+  }
 
 
   function mobileNav () {
