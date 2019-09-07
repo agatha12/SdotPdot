@@ -193,6 +193,11 @@ body {
     padding-bottom: 0;
     
 }
+.vid2009{
+    width: 100%;
+    height: 700px;
+
+}
 #beyond {
     text-align: center;
     width: 95%;
@@ -225,10 +230,7 @@ body {
     width: 50%;
     float: left;
 }
-.vid2009{
-    width: 100%;
 
-}
 .event img{
     width: 50%;
     margin: 0 auto;
@@ -630,6 +632,11 @@ body {
     width: 50%;
 }
 
+.vid2009{
+
+    height: 300px;
+
+}
 
 }
 
