@@ -507,6 +507,7 @@ body {
     
 }
 
+
 /* media queries */
 
 @media only screen and (max-width: 1200px) {
@@ -638,6 +639,11 @@ body {
 
 }
 
+.gallerymodal{
+    vertical-align: middle;
+    max-height: 100vh;
+    margin-top: 25vh;
+}
 }
 
   
