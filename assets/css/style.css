@@ -488,6 +488,13 @@ body {
 
     text-align: right
 }
+/* lookhear */
+.lookheardiv{
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+    
+}
 
 /* footer */
 
