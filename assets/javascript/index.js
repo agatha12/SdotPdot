@@ -160,7 +160,8 @@ mobileNav()
  $(".transbutton").on("click", function displayPic(){
    $(".gallerymodal").empty()
    console.log(this.id)
-   var path = "./assets/Images/" + this.id
+  // var path = "./assets/Images/" + this.id
+  var path = this.children[0].src
    var photo = $("<img>")
    photo.attr("src", path)
    photo.attr("id", "modalImage")
