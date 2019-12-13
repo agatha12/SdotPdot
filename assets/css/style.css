@@ -44,7 +44,10 @@ body {
     font-family: Desyrel;
     margin-bottom: 20px;
 }
-
+ #slogan{
+     font-family: Desyrel;
+     text-align: center;
+ }
 .navlink {
 
     color: white
@@ -512,6 +515,7 @@ body {
 #footer a{
     color: white;
     font-size: 22px;
+    margin: 2px;
     
 }
 
