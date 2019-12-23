@@ -37,14 +37,20 @@ body {
 .Desyrel{
     font-family: Desyrel;
 }
+#pageHeader{
+    font-family: Desyrel;
+}
 
 /* nav */
 #navdiv {
     text-align: center;   
-    font-family: Desyrel;
+    font-family: Corbel;
     margin-bottom: 20px;
 }
-
+ #slogan{
+     font-family: Desyrel;
+     text-align: center;
+ }
 .navlink {
 
     color: white
@@ -512,6 +518,7 @@ body {
 #footer a{
     color: white;
     font-size: 22px;
+    margin: 2px;
     
 }
 
