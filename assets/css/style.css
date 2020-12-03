@@ -549,8 +549,8 @@ width: 10%;
 
 
 #wkusbutton{
-    color: white;
-    border-color: white;
+    color: #FFD700;
+    border-color: #FFD700;
     border-width: 2px;
     background-color: transparent;
     font-size: 20px;
@@ -561,9 +561,9 @@ width: 10%;
 
 #wkusbutton:hover{
     color: black;
-    border-color: white;
+    border-color: #FFD700;
     border-width: 2px;
-    background-color:  white;
+    background-color:  #FFD700;
 }
 .wkusbackgroundImg{
     background-image: url(../Images/wkus_inside\ cover.jpg);
