@@ -517,42 +517,53 @@ width: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 50px;
-    color: #FFD700;
+    color: white;
 
 }
 
+
+
 #wkusText{
-    text-align: left;
-    color: #FFD700;
+    text-align: center;
+    /* color: #FFD700; */
+    color:white;
     max-width: 40%;
     padding: 30px;
     font-size: 16px;
 }
+#wkusText p{
+    text-align: left;
+}
 
 #wkusImg{
     text-align: center;
+
 }
 
 #wkusImg img{
     flex: 2;
     width:100%;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+
 #wkusbutton{
-    color: #FFD700;
-    border-color: #FFD700;
+    color: white;
+    border-color: white;
     border-width: 2px;
     background-color: transparent;
     font-size: 20px;
     padding: 10px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #wkusbutton:hover{
     color: black;
-    border-color: #FFD700;
+    border-color: white;
     border-width: 2px;
-    background-color:  #FFD700;
+    background-color:  white;
 }
 .wkusbackgroundImg{
     background-image: url(../Images/wkus_inside\ cover.jpg);
