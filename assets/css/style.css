@@ -60,31 +60,34 @@ body {
 }
 
 #navhome{
-    width: 11%;
+    width: 10%;
 }
 
 #navabout{
-    width: 9%;
+    width: 8%;
 }
 
 #navbook{
-    width: 17%;
+    width: 15%;
 }
 #navarticle{
-    width: 14%;
+    width: 13%;
 }
 
 #navportfolio{
-    width: 15%;
+    width: 14%;
 }
 #navvideo{
-    width: 11%;
+    width: 8%;
 }
 #navinstagram{
-    width: 10%;
+    width: 8%;
 }
 #navshop{
-    width: 12%;
+    width: 11%;
+}
+#navwkus{
+width: 10%;
 }
 
 
@@ -506,6 +509,61 @@ body {
     
 }
 
+/*wkus */
+#wkusDiv{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    color: #FFD700;
+
+}
+
+#wkusText{
+    text-align: left;
+    color: #FFD700;
+    max-width: 40%;
+    padding: 30px;
+    font-size: 16px;
+}
+
+#wkusImg{
+    text-align: center;
+}
+
+#wkusImg img{
+    flex: 2;
+    width:100%;
+    margin: 30px;
+}
+
+#wkusbutton{
+    color: #FFD700;
+    border-color: #FFD700;
+    border-width: 2px;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#wkusbutton:hover{
+    color: black;
+    border-color: #FFD700;
+    border-width: 2px;
+    background-color:  #FFD700;
+}
+.wkusbackgroundImg{
+    background-image: url(../Images/wkus_inside\ cover.jpg);
+   background-attachment: fixed; 
+  background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
 /* footer */
 
 #footer {
@@ -552,7 +610,16 @@ body {
   #articles{
       width: 100%;
   }
- 
+  #wkusDiv{
+      width: 100%;
+  }
+  .wkusbackgroundImg{
+    background-image: url(../Images/wkus_inside\ cover.jpg);
+   background-attachment: fixed; 
+  background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 1000%
+}
    }
 
 @media only screen and (max-width: 900px) {
@@ -594,7 +661,26 @@ body {
 
     
     }
+    #wkusText {
+
+        max-width: 100%;
+
+    }
+
+    #wkusImg img{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 10px;
+    }
     
+
+    #wkusDiv{
+       display: block;
+       height: 100%;
+       width: 80%
+
+    } 
 
 }
 

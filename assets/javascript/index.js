@@ -39,6 +39,7 @@ mobileNav()
     var a7 =$("<a>")
     var a8 =$("<a>")
     var a9 = $("<a>")
+    var a10 = $("<a>")
     var p = $("<p>")
 
     div.attr("class", "dropdown")
@@ -79,6 +80,10 @@ mobileNav()
     a8.attr("href", "http://www.artpal.com/shedrickpelt")
     a8.attr("target", "blank")
     a8.text("prints by shedrick")
+    a10.attr("class", "dropdown-item")
+    a10.attr("href", "https://agatha12.github.io/SdotPdot/wkus")
+    a10.attr("target", "blank")
+    a10.text("We Keep Us Safe")
     p.attr("id", "slogan")
     p.text("transitioning through life with a bold new approach")
 
@@ -89,6 +94,7 @@ mobileNav()
 
     div2.append(a5)
     div2.append(a1)
+    div2.append(a10)
     div2.append(a2)
     div2.append(a3)
     div2.append(a4)
@@ -96,6 +102,7 @@ mobileNav()
     div2.append(a6)
     div2.append(a7)
     div2.append(a8)
+
     div.append(button)
     div.append(div2)
     
@@ -116,6 +123,7 @@ mobileNav()
     var a8 =$("<a>")
     var img = $("<img>")
     var a9 = $("<a>")
+    var a10 = $("<a>")
     var p = $("<p>")
     
 
@@ -158,6 +166,10 @@ mobileNav()
     a8.attr("href", "http://www.artpal.com/shedrickpelt")
     a8.attr("target", "blank")
     a8.text("prints by shedrick")
+    a10.attr("class", "navlink")
+    a10.attr("id", "navwkus")
+    a10.attr("href", "https://agatha12.github.io/SdotPdot/wkus")
+    a10.text("We Keep Us Safe")
     p.attr("id", "slogan")
     p.text("transitioning through life with a bold new approach")
 
@@ -172,6 +184,7 @@ mobileNav()
 
     div.append(a5)
     div.append(a1)
+    div.append(a10)
     div.append(a2)
     div.append(a3)
     div.append(a4)
@@ -179,6 +192,7 @@ mobileNav()
     div.append(a6)
     div.append(a7)
     div.append(a8)
+
     $("#nav").append(div)
  }
 
@@ -363,5 +377,9 @@ $('.responsive').slick({
     // instead of a settings object
   ]
 });
-			
+      
+
+$('#wkusbutton').click(function(){
+  window.open("https://sdotpdotshop.bigcartel.com/product/we-keep-us-safe-photobook")}
+)
        
