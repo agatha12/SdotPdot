@@ -511,7 +511,7 @@ width: 10%;
 
 /*wkus */
 #wkusDiv{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     padding-top: 20px;
@@ -538,6 +538,7 @@ width: 10%;
 #wkusImg{
     text-align: center;
     width: 70%;
+    
 
 }
 
@@ -598,6 +599,12 @@ width: 10%;
 
 /* media queries */
 
+@media only screen and (max-width: 1500px) {
+    #wkusDiv{
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
 
     #navlogo {
@@ -623,8 +630,9 @@ width: 10%;
       width: 100%;
   }
   #wkusDiv{
-      width: 100%;
-  }
+    width: 100%;
+}
+
   .wkusbackgroundImg{
     background-image: url(../Images/wkus_inside\ cover.jpg);
    background-attachment: fixed; 
