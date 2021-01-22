@@ -211,6 +211,8 @@ mobileNav()
    var a6 = $("<a>")
    var i6 = $("<i>")
    var p = $("<p>")
+   var p2 = $("<p>")
+   var a7 = $("<a>")
 
    a.attr("target", "blank")
    a.attr("href", "http://twitter.com/sdotpelt")
@@ -232,6 +234,12 @@ mobileNav()
    i6.attr("class", "fab fa-youtube-square")
    p.attr("class", "footerName")
    p.text("shedrick pelt · s.pelt@yahoo.com")
+   p2.attr("class", "footerName")
+   p2.text("Featured as one of ")
+   a7.attr("target", "blank")
+   a7.attr("font-size", "16px")
+   a7.text("the highest-rated Washington photographers")
+   a7.attr("href", "https://www.snappr.co/best-photographers/washington-dc")
 
    a.append(i)
    a2.append(i2)
@@ -239,6 +247,7 @@ mobileNav()
    a4.append(i4)
    a5.append(i5)
    a6.append(i6)
+   p2.append(a7)
 
 
    $("#footer").append(a)
@@ -248,6 +257,7 @@ mobileNav()
    $("#footer").append(a5)
    $("#footer").append(a6)
    $("#footer").append(p)
+   $("#footer").append(p2)
 
 
 
